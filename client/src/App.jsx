@@ -1,5 +1,6 @@
-import { Routes, Route } from 'react-router-dom'
+﻿import { Routes, Route } from 'react-router-dom'
 import './App.css'
+import DataScience from './pages/DataScience.jsx'
 import WebDevelopment from './pages/WebDevelopment.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Certificate from './pages/Certificate.jsx'
@@ -76,7 +77,7 @@ function Home() {
               <span className="category-icon blue">?</span>
               <h3>Data Science</h3>
               <p>Turn data into insights and solve meaningful problems.</p>
-              <a href="#paths">Explore path ?</a>
+              <a href="/data-science">Explore path →</a>
             </article>
             <article className="category-card">
               <span className="category-icon orange">?</span>
@@ -111,6 +112,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/web-development" element={<WebDevelopment />} />
+        <Route path="/data-science" element={<DataScience />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/certificate" element={<Certificate />} />
         <Route path="/login" element={<Auth />} />
@@ -120,6 +122,7 @@ function App() {
 }
 
 export default App
+
 
 
 
