@@ -1,4 +1,11 @@
-\# SkillVerse — Learn Skills. Build Your Future.
+# SkillVerse - Learn Skills. Build Your Future.
+
+🌐 **Live Website:** https://skill-verse-platform-eta.vercel.app
+
+💻 **GitHub Repository:** https://github.com/manishatyagi13/SkillVerse-Platform
+
+---
+
 
 
 
@@ -6,71 +13,71 @@ SkillVerse is a full-stack web application designed to help learners explore ski
 
 
 
-\## ✨ Features
+## Features
 
 
 
-\- Modern and responsive user interface
+- Modern and responsive user interface
 
-\- Explore learning opportunities
+- Explore learning opportunities
 
-\- Login and sign-up interface
+- Login and sign-up interface
 
-\- Learning Paths section
+- Learning Paths section
 
-\- Dedicated About section
+- Dedicated About section
 
-\- React-based frontend
+- React-based frontend
 
-\- Backend API built with Node.js and Express
+- Backend API built with Node.js and Express
 
-\- MongoDB integration for database connectivity
+- MongoDB integration for database connectivity
 
-\- Environment variables for configuration
+- Environment variables for configuration
 
 
 
-\## 🛠️ Tech Stack
+\## ≡ƒ¢á∩╕Å Tech Stack
 
 
 
 \*\*Frontend\*\*
 
-\- React.js
+- React.js
 
-\- Vite
+- Vite
 
-\- HTML5
+- HTML5
 
-\- CSS3
+- CSS3
 
-\- JavaScript
+- JavaScript
 
 
 
 \*\*Backend\*\*
 
-\- Node.js
+- Node.js
 
-\- Express.js
+- Express.js
 
-\- MongoDB
+- MongoDB
 
-\- Mongoose
+- Mongoose
 
 
 
 \*\*Tools\*\*
 
-\- Git and GitHub
+- Git and GitHub
 
-\- Visual Studio Code
+- Visual Studio Code
 
-\- npm
+- npm
 
 
 
-\## 📁 Project Structure
+\## ≡ƒôü Project Structure
 
 
 
@@ -78,19 +85,19 @@ SkillVerse is a full-stack web application designed to help learners explore ski
 
 SkillVerse/
 
-├── client/          # React frontend
+Γö£ΓöÇΓöÇ client/          # React frontend
 
-├── server/          # Node.js and Express backend
+Γö£ΓöÇΓöÇ server/          # Node.js and Express backend
 
-├── .gitignore
+Γö£ΓöÇΓöÇ .gitignore
 
-└── README.md
+ΓööΓöÇΓöÇ README.md
 
 ```
 
 
 
-\## 🚀 Getting Started
+\## ≡ƒÜÇ Getting Started
 
 
 
@@ -100,11 +107,11 @@ SkillVerse/
 
 Install the following:
 
-\- Node.js and npm
+- Node.js and npm
 
-\- MongoDB Atlas account or a MongoDB instance
+- MongoDB Atlas account or a MongoDB instance
 
-\- Git
+- Git
 
 
 
@@ -200,7 +207,7 @@ The backend requires a valid MongoDB connection if database connectivity is enab
 
 
 
-\## 🎯 Project Goal
+\## ≡ƒÄ» Project Goal
 
 
 
@@ -208,23 +215,23 @@ The goal of SkillVerse is to provide a foundation for a learning platform where 
 
 
 
-\## 🔮 Future Enhancements
+\## ≡ƒö« Future Enhancements
 
 
 
-\- Complete user authentication
+- Complete user authentication
 
-\- Personalized learning dashboards
+- Personalized learning dashboards
 
-\- Course enrollment and progress tracking
+- Course enrollment and progress tracking
 
-\- Skill recommendations
+- Skill recommendations
 
-\- User profiles and saved learning paths
+- User profiles and saved learning paths
 
 
 
-\## 👩‍💻 Author
+\## ≡ƒæ⌐ΓÇì≡ƒÆ╗ Author
 
 
 
@@ -236,11 +243,8 @@ GitHub: \[@manishatyagi13](https://github.com/manishatyagi13)
 
 
 
-\## 📄 License
+\## ≡ƒôä License
 
 
 
 This project is available for educational and portfolio purposes. A formal license can be added if required.
-
-
-
