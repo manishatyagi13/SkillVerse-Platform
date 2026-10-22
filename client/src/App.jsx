@@ -5,6 +5,7 @@ import WebDevelopment from './pages/WebDevelopment.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Certificate from './pages/Certificate.jsx'
 import Auth from './pages/Auth.jsx'
+import ArtificialIntelligence from './pages/ArtificialIntelligence.jsx'
 import Navbar from './components/Navbar.jsx'
 
 function Home() {
@@ -83,7 +84,7 @@ function Home() {
               <span className="category-icon orange">?</span>
               <h3>Artificial Intelligence</h3>
               <p>Explore machine learning and intelligent technologies.</p>
-              <a href="#paths">Explore path ?</a>
+              <a href="/artificial-intelligence">Explore path ?</a>
             </article>
           </div>
         </section>
@@ -113,6 +114,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/web-development" element={<WebDevelopment />} />
         <Route path="/data-science" element={<DataScience />} />
+    <Route path="/artificial-intelligence" element={<ArtificialIntelligence />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/certificate" element={<Certificate />} />
         <Route path="/login" element={<Auth />} />

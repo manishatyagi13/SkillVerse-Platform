@@ -1,4 +1,4 @@
-
+﻿
 import { useState, useEffect } from 'react'
 import { moduleQuizzes } from './moduleQuizzes'
 
@@ -94,7 +94,7 @@ function WebDevelopment() {
         'Use ul for a bulleted list, ol for a numbered list, and li for each list item. Tables organise data into rows and columns.',
       example:
         '<ul>\n  <li>HTML</li>\n  <li>CSS</li>\n</ul>',
-      output: '• HTML\n• CSS',
+      output: 'â€¢ HTML\nâ€¢ CSS',
     },
 
     'Build your first web page': {
@@ -254,7 +254,7 @@ function WebDevelopment() {
   return (
     <main className="course-page">
       <a className="course-back" href="/">
-        ← Back to SkillVerse
+        â† Back to SkillVerse
       </a>
 
       <section className="course-hero">
@@ -340,8 +340,8 @@ function WebDevelopment() {
 
               <span className="topic-status">
                 {selectedTopic === topic.title
-                  ? 'Close lessons ↑'
-                  : 'View lessons →'}
+                  ? 'Close lessons â†‘'
+                  : 'View lessons â†’'}
               </span>
             </button>
           ))}
@@ -349,7 +349,7 @@ function WebDevelopment() {
 
         {activeTopic && (
           <section className="lesson-panel">
-            <h2>{activeTopic.title} — Lessons</h2>
+            <h2>{activeTopic.title} â€” Lessons</h2>
             <p>Tick each lesson when you finish it.</p>
 
             {(() => {
@@ -416,7 +416,7 @@ function WebDevelopment() {
                               className="lesson-open-button"
                               onClick={() => setSelectedLesson(lesson)}
                             >
-                              Open lesson →
+                              Open lesson â†’
                             </button>
 
                             <label className="lesson-checkbox">
@@ -542,12 +542,19 @@ function WebDevelopment() {
             {!quizSubmitted[activeTopic.title] ? (
               <button
                 type="button"
-                onClick={() =>
+                disabled={Object.keys(quizAnswers[activeTopic.title] || {}).length !== moduleQuizzes[activeTopic.title].length}
+                onClick={() => {
+                  const answers = quizAnswers[activeTopic.title] || {}
+                  const questions = moduleQuizzes[activeTopic.title]
+                  if (questions.some((question, index) => answers[index] === undefined)) {
+                    alert('Please answer all questions before submitting.')
+                    return
+                  }
                   setQuizSubmitted((previous) => ({
                     ...previous,
                     [activeTopic.title]: true,
                   }))
-                }
+                }}
               >
                 Submit Quiz
               </button>
